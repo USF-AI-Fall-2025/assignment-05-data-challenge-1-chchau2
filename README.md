@@ -5,7 +5,7 @@ __Part 1 Data Exploration:__
 **Data Quality** 
 Below are each column and their datatypes. The dataset consists of a mixture of objects and floats. 	
 Data columns (total 11 columns):
- #   Column              Non-Null Count  Dtype  
+     Column              Non-Null Count  Dtype  
 ---  ------              --------------  -----  
  0   DISTRICT_TYPE       20705 non-null  object 
  1   DISTRICT_NAME       20705 non-null  object 
