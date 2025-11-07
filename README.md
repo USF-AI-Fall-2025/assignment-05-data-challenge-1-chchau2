@@ -3,10 +3,10 @@
 __Part 1 Data Exploration:__
 
 **Data Quality** 
+
 Below are each column and their datatypes. The dataset consists of a mixture of objects and floats. 	
 Data columns (total 11 columns):
      Column              Non-Null Count  Dtype  
----  ------              --------------  -----  
  0   DISTRICT_TYPE       20705 non-null  object 
  1   DISTRICT_NAME       20705 non-null  object 
  2   DISTRICT_CODE       17960 non-null  float64
@@ -46,7 +46,7 @@ District 56'
 'Klamath-Trinity Joint Unified' 'Modoc Joint Unified'
  	'Healdsburg Unified']
 
-	ACADEMIC_YEAR has unique values['2018-2019']
+ACADEMIC_YEAR has unique values['2018-2019']
 
 DEMO_CATEGORY has unique values ['Race' 'Homeless Status' 'All' 'Foster Status' 'Gender']
 
@@ -63,15 +63,15 @@ AWARD_CATEGORY has unique values
 
 DISTRICT_CODE ranges roughly from 110,000 to 5.8 million. The WAGE columns range roughly from 0 to 150,000, with means between about 4,400 and 8,500. See below:
 	
-	DISTRICT_CODE    WAGE_YEAR1     WAGE_YEAR2     WAGE_YEAR3  
-count   1.796000e+04  20705.000000   20705.000000   20705.000000   
-mean    3.041331e+06   4476.106834    6075.533253    7310.831635   
-std     1.583286e+06  11944.502346   16140.916903   19158.203471   
-min     1.100170e+05      0.000000       0.000000       0.000000   
-25%     1.864089e+06      0.000000       0.000000       0.000000   
-50%     3.166852e+06      0.000000       0.000000       0.000000   
-75%     4.277214e+06      0.000000       0.000000       0.000000   
-max     5.872769e+06  97993.000000  132847.000000  146728.000000   
+         DISTRICT_CODE    WAGE_YEAR1     WAGE_YEAR2     WAGE_YEAR3  
+count	1.796000e+04  	20705.000000   20705.000000   20705.000000   
+mean	3.041331e+06   	4476.106834    6075.533253    7310.831635   
+std		1.583286e+06  	11944.502346   16140.916903   19158.203471   
+min		1.100170e+05 	0.000000       0.000000       0.000000   
+25%		1.864089e+06	0.000000       0.000000       0.000000   
+50%		3.166852e+06	0.000000       0.000000       0.000000   
+75%		4.277214e+06	0.000000       0.000000       0.000000   
+max		5.872769e+06  97993.000000  132847.000000  146728.000000   
 
           WAGE_YEAR4  
 count   20705.000000  
