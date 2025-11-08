@@ -1,7 +1,7 @@
 # x62-data-challenge-student-pathways
 
 __Part 1 Data Exploration:__
-
+Code found inside jupyter notebook can be run to find how these results were concluded.
 
 **Data Quality** 
 
