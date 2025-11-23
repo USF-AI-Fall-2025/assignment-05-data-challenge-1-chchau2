@@ -7,7 +7,7 @@ Code found inside jupyter notebook can be run to find how these results were con
 
 Below are each column and their datatypes. The dataset consists of a mixture of objects and floats. DISTRICT_TYPE, DISTRICT_NAME, ACADEMIC_YEAR, DEMO_CATEGORY, STUDENT_POPULATION, and AWARD_CATEGORY are object types which means that they are categorical, while the rest are floats, which means they are numeric.
 
-![data types](https://github.com/USF-AI-Fall-2025/assignment-05-data-challenge-1-chchau2/blob/main/data%20vs%20types.png)
+![data types](https://github.com/USF-AI-Fall-2025/assignment-05-data-challenge-1-chchau2/blob/main/data%20types.png)
 
 Almost all data columns are complete, with DISTRICT_CODE being the exception. There are 2745 missing entries in the district code column.
 
