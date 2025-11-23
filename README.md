@@ -46,7 +46,7 @@ Each column in the data represents information about a school district, or somet
 
 Using a heatmap to look at numeric relations, wage years 1-4 are strongly related to each other, while district code has no relation with them. See screenshot below:
 
-![Heatmap](numeric vs numeric.png)
+![Heatmap](https://github.com/USF-AI-Fall-2025/assignment-05-data-challenge-1-chchau2/blob/main/numeric%20vs%20numeric.png)
 	
 
 I also compared WAGE_YEAR4 with DISTRICT_NAME, AWARD_TYPE, and DEMO_CATEGORY. 
