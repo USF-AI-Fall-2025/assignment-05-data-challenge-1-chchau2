@@ -1,14 +1,17 @@
 # x62-data-challenge-student-pathways
 
 __Part 1 Data Exploration:__
-Code found inside jupyter notebook can be run to find how these results were concluded.
+Code found inside jupyter notebook can be run to find how these results were concluded. Screenshots provided.
 
 **Data Quality** 
 
 Below are each column and their datatypes. The dataset consists of a mixture of objects and floats. DISTRICT_TYPE, DISTRICT_NAME, ACADEMIC_YEAR, DEMO_CATEGORY, STUDENT_POPULATION, and AWARD_CATEGORY are object types which means that they are categorical, while the rest are floats, which means they are numeric.
 
+![data types](https://github.com/USF-AI-Fall-2025/assignment-05-data-challenge-1-chchau2/blob/main/data%20vs%20types.png)
+
 Almost all data columns are complete, with DISTRICT_CODE being the exception. There are 2745 missing entries in the district code column.
 
+![chart](https://github.com/USF-AI-Fall-2025/assignment-05-data-challenge-1-chchau2/blob/main/missing%20info%20by%20column.png)
 **Range**
 
 The categorical columns are DISTRICT_TYPE, DISTRICT_NAME, ACADEMIC_YEAR, DEMO_CATEGORY, STUDENT_POPULATION, and AWARD_CATEGORY. 
@@ -36,9 +39,13 @@ AWARD_CATEGORY has unique values
 ["Bachelor's Degree - Did Not Transfer" 'Associate Degree'
  'Community College Certificate' "Bachelor's Degree - Transferred"]
 
-DISTRICT_CODE ranges roughly from 110,000 to 5.8 million. The WAGE columns range roughly from 0 to 150,000, with means between about 4,400 and 8,500.
+DISTRICT_CODE ranges roughly from 110,000 to 5.8 million. The WAGE columns range roughly from 0 to 150,000, with means between about 4,400 and 8,500. See screenshot:
 
-Histograms show that all wage columns are clustered around 0 with a long right tail. This makes the data for wages skewed right, not normally distributed.
+![range](https://github.com/USF-AI-Fall-2025/assignment-05-data-challenge-1-chchau2/blob/main/range.png)
+
+Histograms show that all wage columns are clustered around 0 with a long right tail. This makes the data for wages skewed right, not normally distributed. See screenshot:
+
+![histogram](https://github.com/USF-AI-Fall-2025/assignment-05-data-challenge-1-chchau2/blob/main/numeric%20column%20distribution.png)
 
 **Semantics**
 
@@ -56,4 +63,4 @@ For DISTRICT_NAME, Legislative Districts have much higher average wages than Sch
 For AWARD_TYPE, The Bachelors Degree shows much higher wages compared to the other award categories. Associate Degree, Bachelor with transfer, and Community College all have very mean wages, meaning that they earned a lot less on average.
 
 Screenshot below:
-
+![numeric vs categorical](https://github.com/USF-AI-Fall-2025/assignment-05-data-challenge-1-chchau2/blob/main/numeric%20vs%20categorical.png)
